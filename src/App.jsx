@@ -44,7 +44,11 @@ const EXPERIENCE = [
     date: "2025 — 2025", company: "Total Technology System", role: " Full Stack Developer intern",
     desc: "Developed a website utilizing EJS for the frontend, MySQL for the database, and Express.js for the backend.Implemented authentication and authorization features.Architected a secure authentication system with Passport.js and Bcrypt (Cost Factor: 10), ensuring user credentials remain encrypted and resistant to brute-force and rainbow table attacks for a projected user base of 100+. Developed a dual-tier search algorithm with MySQL and Express.js, achieving a 30% improvement in product specification retrieval speed compared to standard sequential querying.",
   },
-
+  {
+     date: "2025 — 2025", company: "The Entrepreneurship Network ", role: " Full Stack Developer intern",
+    desc: "Implemented a double-token system with short-lived access tokens and secure refresh token rotation, enhancing session security and enabling stateless authentication.Utilized Mongoose sessions and transactions (startSession, startTransaction, commit/abort) to ensure atomic updates for doctor applications, user roles,and notifications.Integrated the Gemini API to develop an AI assistant, automating user support and enhancing user experience",
+  }
+  
 ];
 
 const NAV_LINKS = ["About", "Skills", "Projects", "Experience"];

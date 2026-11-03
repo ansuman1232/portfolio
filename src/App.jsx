@@ -8,7 +8,7 @@ const SKILLS = [
   },
   {
     icon: "⚙️", title: "Backend", color: "purple",
-    tags: ["Node.js", "Express", "Python", "FastAPI", "REST APIs", "WebSockets"],
+    tags: ["Node.js", "Express", "Python", "FastAPI", "REST APIs", "WebSockets" ,"Docker"],
   },
   {
     icon: "🗄️", title: "Data & DB", color: "orange",
@@ -361,7 +361,7 @@ function About() {
               <p key={i} style={{ color: "#6a7f96", lineHeight: 1.85, fontSize: "1rem" }}>{text}</p>
             ))}
             <div style={{ marginTop: "1rem" }}>
-              <Btn href="https://drive.google.com/file/d/1tjSw6RYSLaXhYlY4yKXNy-CcRvtFL6MX/view?usp=drive_link" variant="outline" style={{ fontSize: "0.78rem" }}>résumé →</Btn>
+              <Btn href="https://drive.google.com/drive/folders/1SQSNsADRHM7RbFXKE7BxR76A10-wbZqP?usp=sharing" variant="outline" style={{ fontSize: "0.78rem" }}>résumé →</Btn>
             </div>
           </div>
         </Reveal>

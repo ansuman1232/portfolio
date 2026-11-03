@@ -31,10 +31,10 @@ const PROJECTS = [
     links: [{ label: "Live Demo", href: "https://wanderer-wfnb.onrender.com/listing" }, { label: "GitHub", href: "https://github.com/ansuman1232/WandererDeploy" }],
   },
   {
-    num: "03", cat: "AI Tool", title: "AI-PLANT-DISEASE-DETECTION",
-    desc: "Developed a web application utilizing machine learning to detect and analyze plant diseases from images.Users can upload a photo of a plant to receive instant diagnosis, including disease type, symptoms, and treatment recommendations.Employed ResNET50 model for accurate disease detection.",
-    stack: ["React", "Flask"],
-    links: [{ label: "", href: "" }, { label: "GitHub", href: "https://github.com/ansuman1232/plant_disease_detection" }],
+    num: "03", cat: "AI Tool", title: "AI-Powered Deepfake Video Detection System",
+    desc: "A full-stack video analysis application that lets a user upload a video and receive an AI-generated REAL/FAKE prediction with a confidence score and face–neck correlation metric. Video inference runs asynchronously so an upload request can return while the analysis is queued and processed in the background.",
+    stack: ["React", "Node.js/Express", "MongoDB", "BullMQ", "Redis", "Python", "PyTorch", "Docker", "React.js"],
+    links: [{ label: "", href: "" }, { label: "GitHub", href: "https://github.com/ansuman1232/Capstone_project" }],
   },
   
 ];
